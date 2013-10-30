@@ -39,14 +39,10 @@ public class PalavraCruzada {
 	}
 
 	public int [][] transformaMatriz (){
-		int i = 0;
-		int j = 0;
+		int i, j;
 		int contador = 1;
 		
-		
-		//System.out.print(matriz[i][j] + "\n");
-		
-		for (i=0;i<=tamanhoI;i++) {
+		for (i=0;i<tamanhoI;i++) {
 			for(j=0;j<tamanhoJ;j++){
 				if(matriz[i][j] == -1){
 					matriz[i][j] = -1;
